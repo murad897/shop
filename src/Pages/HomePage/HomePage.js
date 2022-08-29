@@ -1,9 +1,13 @@
-import React from 'react'
+import { Container } from "@mui/material";
+import React from "react";
+import Products from "../../Components/Products/Products";
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
-  )
-}
+    <Container maxWidth="md">
+      <Products />
+    </Container>
+  );
+};
 
-export default HomePage
+export default HomePage;

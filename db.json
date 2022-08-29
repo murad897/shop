@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "price": 250,
+      "title": "nikee",
+      "description": "this is modern design of nikee",
+      "image": "../../assets/nike.jpg"
+    },
+    {
+      "id": 2,
+      "price": 300,
+      "title": "nikee",
+      "description": "this is modern design of nikee",
+      "image": "../../assets/nike.jpg"
+    },
+    {
+      "id": 3,
+      "price": 350,
+      "title": "nikee",
+      "description": "this is modern design of nikee",
+      "image": "../../assets/nike.jpg"
+    }
+  ]
+}
