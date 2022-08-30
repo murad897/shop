@@ -4,22 +4,37 @@
       "id": 1,
       "price": 250,
       "title": "nikee",
-      "description": "this is modern design of nikee",
-      "image": "../../assets/nike.jpg"
+      "description": "this is modern design of nikee"
     },
     {
       "id": 2,
       "price": 300,
-      "title": "nikee",
-      "description": "this is modern design of nikee",
-      "image": "../../assets/nike.jpg"
+      "title": "adidas",
+      "description": "this is modern design of adidas"
     },
     {
       "id": 3,
       "price": 350,
+      "title": "puma",
+      "description": "this is modern design of puma"
+    },
+    {
+      "id": 1,
+      "price": 250,
       "title": "nikee",
-      "description": "this is modern design of nikee",
-      "image": "../../assets/nike.jpg"
+      "description": "this is modern design of nikee"
+    },
+    {
+      "id": 2,
+      "price": 300,
+      "title": "adidas",
+      "description": "this is modern design of adidas"
+    },
+    {
+      "id": 3,
+      "price": 350,
+      "title": "puma",
+      "description": "this is modern design of puma"
     }
   ]
 }

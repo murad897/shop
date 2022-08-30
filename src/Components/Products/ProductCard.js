@@ -42,7 +42,7 @@ const ProductCard = () => {
     ));
   };
   return (
-    <Container maxWidth="md">
+    <Container className={styles.productsMainContainer} maxWidth="md">
       <Box className={styles.productsContainer}>{GetProducts()}</Box>
     </Container>
   );
