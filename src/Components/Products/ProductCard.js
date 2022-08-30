@@ -9,6 +9,8 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import { useStyles } from "./PorductStyles";
 import { v4 as uuidv4 } from "uuid";
+import IconButton from '@mui/material/IconButton';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 const ProductCard = () => {
   const products = useSelector(productsSelector);
@@ -34,9 +36,9 @@ const ProductCard = () => {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary">
-            dsadas
-          </Button>
+          <IconButton aria-label="add to favorites">
+            <FavoriteIcon />
+          </IconButton>
         </CardActions>
       </Card>
     ));
